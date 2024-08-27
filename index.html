@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificador de texto</title>
+    <link rel=stylesheet href="style.css">
+</head>
+<body>
+    <header class="logo__superior">
+        <img class="logo__imagen" src="./assets/Logo.png">
+        
+    </header>
+    <main class="enc__cuerpo">
+        <section class="enc__primera">
+            <input type="text" class="enc__input" placeholder="Ingrese el texto a encriptar" name="texto">
+            
+            <div>
+                <p class="advertencia"> <img src="./assets/bi_exclamation-circle-fill.png"> Solo letras minúsculas y sin acentos </p>
+            </div>
+            <div class="enc__boton">
+                <button onclick="encriptarMensaje()" id="mensajeParaEncriptar" class="enc__boton__enc">Encriptar</button>
+                <button onclick="desencriptarMensaje()" class="enc__boton__des">Desencriptar</button>
+            </div>
+        </section>
+
+        <section class="enc__contenedor">
+            <div class="contenedorEncriptados">
+                <img src="assets/Muñeco.png" alt="Imagen de espera de texto" class="imagenMuñeco">
+                <p class="enc__texto1"> Ningun mensaje fue encontrado </p>
+                <p class="enc__texto2"> Ingrese el texto a encriptar o desencriptar </p>
+                
+            </div>
+            <button onclick="copiar()" class="enc__boton__copy">Copiar</button>
+        </section>
+    </main>
+
+
+    <script src="app.js"></script>
+
+    <footer>
+
+    </footer>
+</body>
+</html>

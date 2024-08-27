@@ -1,0 +1,176 @@
+
+
+
+:root{
+    --color--fondo:#9B9797;
+    --color--primario:#0A3871;
+    --color--secundario:#495057;
+    --color--terciario:#D8DFE8;
+    --color--cuaternario:#FFFFFF;
+    --color--texto: #343A40;
+    --color--texto--secundario: #495057;
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: var(--color--terciario);
+}
+
+.logo__superior{
+    padding: 2% 0% 0% 0%;
+    margin: 0%;
+}
+
+.logo__imagen{
+    width: 10rem;
+    
+}
+
+
+.enc__cuerpo{
+    padding: 0% 10%;
+    justify-content: space-around;
+    display: flex;
+    
+}
+
+.enc__primera{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.enc__input{
+    color: var(--color--primario);
+    text-decoration: double;
+    background-color: var(--color--terciario);
+    font-size: 2rem;
+    width: 50rem;
+    height: 40rem;
+    border-style: none;
+    border-radius: 2rem;
+    background-color:none;
+    align-items: center;
+    outline-style: none;
+    text-align: left;
+}
+
+.enc__input::placeholder{
+    color: var(--color--secundario);
+}
+
+.advertencia{
+    color: var(--color--secundario);
+    align-items: center;
+    justify-content: center;
+}
+
+.enc__boton{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.enc__boton__enc{
+    background-color: var(--color--primario);
+    color: var(--color--cuaternario);
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    width: 328px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid ;
+    margin-bottom: 15px;
+}
+
+
+.enc__boton__enc:hover{
+    background-color: var(--color--secundario);
+}
+
+.enc__boton__copy{
+    background-color: var(--color--primario);
+    color: var(--color--cuaternario);
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    width: 328px;
+    height: 40px;
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid ;
+    margin-bottom: 15px;
+}
+
+
+.enc__boton__copy:hover{
+    background-color: var(--color--secundario);
+}
+
+
+.enc__boton__des{
+    background-color: var(--color--cuaternario);
+    color: var(--color--primario);
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    width: 328px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid ;
+}
+
+.enc__boton__des:hover{
+    background-color: var(--color--secundario);
+    color: var(--color--cuaternario);
+}
+
+.contenedorEncriptados{
+    align-items: center;
+    padding: 20%;
+}
+
+
+.enc__contenedor{
+    width: 400px;
+    height: 744px; 
+    border: 0.1rem solid;
+    background-color: var(--color--cuaternario);
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: justify;
+    color: var(--color--primario);
+    text-decoration: double;
+    font-size: 2rem;
+}
+
+.imagenMuñeco{
+    width: 336px;
+    height: 302px;
+}
+
+
+.enc__texto1{
+    color: var(--color--texto);
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.enc__texto2{
+    color: var(--color--texto--secundario);
+    font-size: 1rem;
+    text-align: center;
+}
